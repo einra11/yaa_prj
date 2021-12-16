@@ -1,3 +1,6 @@
-const person = require('./person');
+const Person = require('./person'); // -> common JS
 
-console.log(person)
+
+const person1 = new Person ('John Doe', 54);
+
+person1.greeting();
